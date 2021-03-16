@@ -2,9 +2,79 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Champions</title>
 </head>
+<style>
+	.container .content {
+  position: absolute;
+	}
+	
+	img{
+		opacity: 0.5;
+	}
+	.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+	
 <body>
+	<div class="container">
+		<h1>Champions</h1>
+		<p>There are over 150+ champions you can find information from:</p>
+		<img src="LoL Front Screen.jpg" alt="LOL">
+<!-- Dropdown box will show all the in game lanes, popular builds, etc. Click on the buttons on live 
+preview and it will load to another page -->		
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Champions
+		<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+			  <li><a href="#">Top Lane Champions</a></li>
+			  <li><a href="#">Jungle Lane Champions</a></li>
+			  <li><a href="#">Mid Lane Champions</a></li>
+			  <li><a href="#">Bot Lane Champions</a></li>
+			  <li><a href="#">Support Lane Champions</a></li>
+			  <li class="divider"></li>
+			  <li><a href="#">Champion Winrates</a></li>
+			  <li><a href="#">Popular Builds</a></li>
+			  <li><a href="#">ARAM</a></li>
+			</ul>
+  		</div>
+	</div>
 </body>
 </html>
