@@ -1,6 +1,6 @@
 
 body {
-	font-family: 'sans-serif';
+	font-family: 'helvetica', 'sans-serif';
 	margin: 0;
 }
 
@@ -93,12 +93,12 @@ header {
 	background-color: #131313;
 	padding: 20px 0;
 	position: relative;
-	border-bottom: 1px solid #000C33;
+	border-bottom: 1px solid #FFB320;
 }
 
 .hamburger-menu {
 	background-color: transparent;
-	border: 1px solid #000C33;
+	border: 1px solid #FFB320;
 	padding: 3px 5px;
 	width: 10px;
 	cursor: pointer;
@@ -108,7 +108,7 @@ header {
 .hamburger-menu .strip {
 	display: block;
 	height: 1px;
-	background-color: #000C33;
+	background-color: #FFB320;
 	marging: 4px 0;
 }
 
@@ -128,7 +128,7 @@ nav ul li a {
 	font-weight: 600;
 }
 nav ul li a:hover {
-	color: #000C33;
+	color: #FFB320;
 }
 
 #login-register-buttton {
@@ -165,7 +165,7 @@ nav ul li a:hover {
 }
 
 .champion-marketing-text span {
-	color: #000C33;
+	color: #FFB320;
 }
 
 .champion-marketing-text h5 {
@@ -177,7 +177,7 @@ nav ul li a:hover {
 }
 
 .champion-marketing-text button {
-	background-color: #000C33;
+	background-color: #FFB320;
 	color: #131313;
 	border-radius: 25px;
 	padding: 15px 25px;
@@ -498,4 +498,45 @@ nav ul li a:hover {
 .comment-items > div p span.author {
 	color: #E92159; 
 }
+
+.comment-item > div h5 {
+	color: #FFB320;
+	font-size: 0.8em;
+	margin-top: 0;
+}
 /* end posts/comments styles */
+
+/* start footer styles */
+footer {
+	background-color: #252525;
+	padding: 25px 0 20px;
+}
+
+footer small {
+	color: #DDDDDD;
+	font-size: 0.9em;
+}
+
+footer small .footer-heart {
+	font-size: 16px;
+}
+
+footer small a {
+	color: #007BDC;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 12px;
+}
+
+footer ul li a {
+	color: #DDDDDD;
+	font-size: 0.8em;
+}
+/* end footer styles */
